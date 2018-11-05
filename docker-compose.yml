@@ -5,9 +5,9 @@ services:
   wordpress:
     image: wordpress
     #restart: always
-    #volumes:
-    #- "./wp-content/themes:/var/www/html/wp-content/themes"
-    #- "./wp-content/plugins:/var/www/html/wp-content/plugins"
+    volumes:
+    - "./wp-content/themes:/var/www/html/wp-content/themes"
+    - "./wp-content/plugins:/var/www/html/wp-content/plugins"
     ports:
     - 8080:80
     environment:
