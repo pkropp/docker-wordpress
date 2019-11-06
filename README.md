@@ -25,6 +25,8 @@ for stopping
 `docker-compose down`
 in folder where you started docker-compose
 
+https://www.slideshare.net/PhilippKropp/wordpress-im-docker
+
 License
 ----
 MIT
